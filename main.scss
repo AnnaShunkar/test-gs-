@@ -1,0 +1,38 @@
+@import './utilis/fonts';
+@import './utilis/variables';
+
+@import './base';
+
+@import'./layout/container';
+
+@import './utilis/utilis';
+
+@import './components/buttons';
+@import './components/header';
+@import './components/hero';
+@import './components/link';
+
+
+@import './layout/advantages-section';
+
+@import './layout/section';
+
+@import './layout/traditions-section';
+
+@import './layout/chefs-section';
+@import './components/chef-card';
+
+
+
+@import './layout/format-section';
+@import './components/format-card';
+
+@import './components/carousel-button';
+
+@import './layout/contact-section';
+
+@import './layout/footer';
+
+@import './layout/modal';
+
+@import './layout/forms';
