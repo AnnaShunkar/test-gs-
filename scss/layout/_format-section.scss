@@ -1,23 +1,20 @@
-.formats-container {
+.formats-section {
+    &__slider{
     display: flex;
     gap: 32px;
     align-items: center;
-}
+    }
+    &__container {
+        overflow: hidden;
+    }
+    &__list {
+        margin-bottom: 32px;
+    }
+    &__button {
+        display: none;
 
-.format-title {
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--color-primary-light);
-}
-
-.format-text {
-    font-size: 14px;
-    font-weight: 300;
-    color: var(--color-primary-light);
-    line-height: 100%;
-}
-
-.formats-title {
-    margin-bottom: 80px;
-    text-align: center;
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+        }
+    }
 }

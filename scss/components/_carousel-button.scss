@@ -10,21 +10,19 @@
     cursor: pointer;
     flex-shrink: 0;
 
+    &__next {
+            transform: rotate(180deg);
+        }
+        &:hover {
+            background-color: var(--color-primary-dark);
+            fill: var(--color-primary-light);
+    
+        }
 }
-
-.carousel-button:hover {
-    background-color: var(--color-primary-dark);
-
-}
-
 .carousel-arrow {
     fill: var(--color-primary-dark);
 }
 
 .carousel-button:hover .carousel-arrow {
     fill: var(--color-primary-light);
-}
-
-.carousel-button.next {
-    transform: rotate(180deg);
 }
